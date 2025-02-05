@@ -73,3 +73,7 @@ type WinSoftwareNats struct {
 	Agentid  string            `json:"agent_id"`
 	Software []WinSoftwareList `json:"software"`
 }
+
+type SystrayNats struct {
+	Agentid string             `json:"agent_id"`
+}
